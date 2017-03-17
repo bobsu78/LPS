@@ -1,0 +1,316 @@
+a:link, a:visited {
+	text-decoration: none;
+	border: 0;
+	color: #666;
+}
+a:hover, a:active {
+	color: #3C3;
+	border: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,address,blockquote,div,ul,li {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size:2em;
+	margin-bottom: 1em;
+}
+h2 {
+	font-size: 1.6em;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+h3 {
+	font-size: 1.3em;
+	font-weight: normal;
+	margin: 1.25em 2.5em;
+}
+h1,h2,h3{
+	clear: both;
+}
+hr {
+	margin-top: 50px;
+}
+
+
+body {
+	background-image: url(../image/bg_img.jpg);
+	font-size: 100%;
+}
+.container {
+	width: 850px;
+	margin: auto;
+}
+
+
+#header {
+	height: 335px;
+	width: 850px;
+	background-image: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+}
+#header img {
+	float: right;
+	margin-top: 280px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+#mainNav ul {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-variant: small-caps;
+	word-spacing: normal;
+	list-style-type: none;
+	padding: 10px;
+	width: 850px;
+}
+#mainNav li {
+	display: inline;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	padding-left: 1em;
+
+	
+}
+#mainNav li a:link,
+#mainNav li a:visited{
+	background: #ccc;
+	padding: 5px 5px 5px 5px;
+	color: #193742;
+	text-decoration: none;
+
+}
+
+#mainNav li a:hover,
+#mainNav li a:active{
+	color: #fff;
+	background-color: #F90;
+	
+}
+
+
+.mainContent {
+	height: 750px;
+	width: 435px;
+	background-color: #FFF;
+	float: left;
+	font-size: large;
+	color: #000;
+	line-height: 1.5em;
+	padding: 20px;
+}
+
+.mainContent h2 {
+	margin-top: 40px;
+}
+
+.signature {
+	font-family: fantasy, Papyrus, cursive;
+}
+
+
+.main_gallery {
+	float: right;
+	width: 350px;
+	margin-top: 0px;
+}
+.main_gallery #gallery_large {
+
+
+}
+#main_ad1 {
+	margin-top: 80px;
+	float: right;
+
+}
+#footer {
+	clear: both;
+	background-color: #333;
+	height: 50px;
+	width: 850px;
+	text-align: center;
+	color: #FFF;
+}
+#footer p {
+	padding: 1em;
+}
+.thumb {
+	margin-left: 20px;
+}
+#underConstruction {
+	margin: auto;
+	text-align: center;
+}
+.otherContent {
+	background-color: #FFF;
+	width: 850px;
+	position: relative;
+}
+.otherContent ul {
+	list-style-position: inside;
+	margin-left: 50px;
+}
+.otherContent dl {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.otherContent dl dt  {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	padding-bottom: 1em;
+}
+.otherContent dl dd {
+	line-height: 1.4;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.faq_go_top {
+	position: relative;
+	left: 600px;
+}
+.otherContent h2 {
+	padding-top: 40px;
+	padding-left: 55px;
+}
+.otherContent h3 {
+	margin-left: 70px;
+}
+
+.container .otherContent ul li {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: medium;
+	line-height: 2;
+}
+#heading_img  {
+	margin-left: 20px;
+}
+
+
+.otherContent #lynn_faq {
+	position: absolute;
+	left: 630px;
+	top: 135px;
+}
+
+#lynn_contact {
+	position: absolute;
+	left: 420px;
+	top: 170px;
+}
+#contact_cell {
+	margin-left: 100px;
+	width: 200px;
+}
+#contact_email {
+	margin-left: 100px;
+	width: 200px;
+}
+address {
+	margin-left: 100px;
+	margin-bottom: 50px;
+}
+#map {
+	margin-left: 210px;
+	padding-bottom: 50px;
+}
+#test1, #test2, #test3, #test4, #test5 {
+	padding: 5px;
+	margin-bottom: 20px;
+}
+#webmaster_info {
+	margin-left: 50px;
+	padding-bottom: 50px;
+}
+
+.otherContent #webmaster {
+	margin-top: 20px;
+	margin-left: 100px;
+	padding-bottom: 20px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 350px;
+}
+#webmaster td {
+	width: 175px;
+}
+#course_h1 {
+	position: relative;
+	left: 35px;
+	top: 20px;
+
+}
+
+.img_heading {
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+#course_indexDivWrapper {
+	margin-bottom: 25px;
+	margin-left: 95px;
+	padding-top: 30px;
+}
+
+#course_indexTable {
+	border-spacing: 0;
+	width: 611px;
+	border: 0;
+}
+
+.course_list {
+	padding-left: 100px;
+
+}
+.course_list li {
+	list-style-type: circle;
+}
+.course_tableDivWrapper {
+	margin-left: 150px;
+}
+.course_tableDivWrapper table {
+	width: 200px;
+	border: 1px solid #000;
+	border-spacing: 0;
+}
+
+#course_indexTable td {
+	padding: 5px;
+}
+#course_indexTable td {
+	height: 55px;
+	width: 205px;
+}
+.course_tableDivWrapper table td, th {
+	border: thin solid #000;
+}
+.profile_lynnPhotos {
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.profile_p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	text-indent: 2.5em;
+	padding-right: 10px;
+	padding-left: 30px;
+	font-size: 1.1em;
+}
+.resources_img {
+	margin-left: 70px;
+	padding-bottom: 0px;
+}
+.resource_logoLink {
+	padding: 8px;
+}
+
+.free {
+	color: #0C3;
+}
+.faq_h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+}
